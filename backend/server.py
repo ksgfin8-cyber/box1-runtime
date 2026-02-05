@@ -1,3 +1,5 @@
+from boxes.box1_capture.capture import capture
+from typing import Any
 from fastapi import FastAPI, APIRouter
 from dotenv import load_dotenv
 from starlette.middleware.cors import CORSMiddleware
