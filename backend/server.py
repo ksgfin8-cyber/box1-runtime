@@ -2,6 +2,7 @@ from fastapi import FastAPI, APIRouter
 from dotenv import load_dotenv
 from starlette.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
+from layer1.adapters.box1_adapter import call_box1
 import os
 import logging
 from pathlib import Path
